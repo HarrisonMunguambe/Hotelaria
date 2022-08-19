@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hotel Rest and Peace</title>
+
+     <!-- //for-mobile-apps -->
+     <link
+     rel="icon"
+     href="img/iconfinder-connectedglobe-4417105_116615.ico"
+     type="image/x-icon"
+   />
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+    <link href="css/flexslider.css" rel="stylesheet" />
+    <link href="css/templatemo-style.css" rel="stylesheet" />
+  </head>
+  <body class="tm-gray-bg">
+    <!-- Header -->
+    <div class="tm-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-4 col-sm-3 tm-site-name-container">
+            <a href="#" class="tm-site-name">Rest and Peace Hotel</a>
+          </div>
+          <div class="col-lg-6 col-md-8 col-sm-9">
+            <div class="mobile-menu-icon">
+              <i class="fa fa-bars"></i>
+            </div>
+            <nav class="tm-nav">
+              <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <!-- <li><a href="about.html">Sobre</a></li>
+                <li><a href="tours.html">Our Tours</a></li> -->
+                <li><a href="contact.html">Sobre</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="tm-banner">
+      <!-- Flexslider -->
+      <div class="flexslider flexslider-banner">
+        <ul class="slides">
+          <li>
+            <div class="tm-banner-inner">
+              <h1 class="tm-banner-title">
+                O Melhor <span class="tm-yellow-text">Hotel</span> para as suas
+                Férias
+              </h1>
+              <p class="tm-banner-subtitle">
+                Hotel Cinco Estrelas com Vista para o Mar
+              </p>
+              <a href="#more" class="tm-banner-link">Ler Mais</a>
+            </div>
+            <img src="img/banner-1.jpg" alt="Image" />
+          </li>
+          <li>
+            <div class="tm-banner-inner">
+              <h1 class="tm-banner-title">
+                Hospede-se <span class="tm-yellow-text">Connosco</span> já
+              </h1>
+              <p class="tm-banner-subtitle">Cobrimos o menor preço</p>
+              <a href="#more" class="tm-banner-link">Ler Mais</a>
+            </div>
+            <img src="img/banner-2.jpg" alt="Image" />
+          </li>
+          <li>
+            <div class="tm-banner-inner">
+              <h1 class="tm-banner-title">
+                Um dos mais
+                <span class="tm-yellow-text">luxuosos hotéis</span> do país
+              </h1>
+              <p class="tm-banner-subtitle">Veja os detalhes da acomodação</p>
+              <a href="#more" class="tm-banner-link">Ler Mais</a>
+            </div>
+            <img src="img/banner-3.jpg" alt="Image" />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- gray bg -->
+    <section class="container tm-home-section-1" id="more">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-6">
+          <!-- Nav tabs -->
+          <div class="tm-home-box-1">
+            <ul
+              class="nav nav-tabs tm-white-bg"
+              role="tablist"
+              id="hotelCarTabs"
+            >
+              <li role="presentation" class="active">
+                <a
+                  href="#hotel"
+                  aria-controls="hotel"
+                  role="tab"
+                  data-toggle="tab"
+                  >Faça já o Booking em um dos nossos Hoteis
+                </a>
+              </li>
+              <!-- <li role="presentation">
+                <a href="#car" aria-controls="car" role="tab" data-toggle="tab"
+                  >Car Rental</a
+                >
+              </li> -->
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div
+                role="tabpanel"
+                class="tab-pane fade in active tm-white-bg"
+                id="hotel"
+              >
+                <div class="tm-search-box effect2">
+                  <form action="#" method="post" class="hotel-search-form">
+                    <div class="tm-form-inner">
+                      <div class="form-group">
+                        <select class="form-control">
+                          <option value="">Seleciona o Hotel</option>
+                          <!-- <option value="shangrila">Nampula</option> -->
+                          <option value="chatrium">Xai-Xai</option>
+                          <option value="fourseasons">Inhambane</option>
+                          <option value="hilton">Maputo</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-group date" id="datetimepicker1">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Check-in Date"
+                          />
+                          <span class="input-group-addon">
+                            <span class="fa fa-calendar"></span>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-group date" id="datetimepicker2">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Check-out Date"
+                          />
+                          <span class="input-group-addon">
+                            <span class="fa fa-calendar"></span>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="form-group margin-bottom-0">
+                        <select class="form-control">
+                          <option value="">Numero de Pessoas</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5p">5+</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-group tm-yellow-gradient-bg text-center">
+                      <a href="Reserva.html" class="tm-yellow-btn">
+                        Preecher Reserva
+                      </a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane fade tm-white-bg" id="car">
+                <div class="tm-search-box effect2">
+                  <form action="#" method="post" class="hotel-search-form">
+                    <div class="tm-form-inner">
+                      <div class="form-group">
+                        <select class="form-control">
+                          <option value="">-- Select Model --</option>
+                          <option value="shangrila">BMW</option>
+                          <option value="chatrium">Mercedes-Benz</option>
+                          <option value="fourseasons">Toyota</option>
+                          <option value="hilton">Honda</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-group date-time" id="datetimepicker3">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Pickup Date"
+                          />
+                          <span class="input-group-addon">
+                            <span class="fa fa-calendar"></span>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-group date-time" id="datetimepicker4">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Return Date"
+                          />
+                          <span class="input-group-addon">
+                            <span class="fa fa-calendar"></span>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <select class="form-control">
+                          <option value="">-- Options --</option>
+                          <option value="">Child Seat</option>
+                          <option value="">GPS Navigator</option>
+                          <option value="">Insurance</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-group tm-yellow-gradient-bg text-center">
+                      <button type="submit" name="submit" class="tm-yellow-btn">
+                        Check Now
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6">
+          <div class="tm-home-box-1 tm-home-box-1-2 tm-home-box-1-center">
+            <img src="img/IMG-20211113-WA0126.jpg" alt="image" class="img-responsive" />
+            <a href="Reserva.html">
+              <div class="tm-green-gradient-bg tm-city-price-container">
+                <span>-Visite e Hospede-se em Nampula</span>
+                <span>36,600 MZN</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6">
+          <div class="tm-home-box-1 tm-home-box-1-2 tm-home-box-1-right">
+            <img src="img/IMG-20220428-WA0137.jpg" alt="image" class="img-responsive" />
+            <a href="Reserva.html">
+              <div class="tm-red-gradient-bg tm-city-price-container">
+                <span>-Visite e Hospede-se em Inhambane</span>
+                <span>25,600 MZN</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <article>
+        <section class="sobre" id="sobre">
+          <div class="sobre-info">
+            <h2 class="sobre-title">Rest and Peace Maputo</h2>
+            <p>
+              O Hotel (Rest and Peace) é um dos maiores e mais luxuosos hotéis
+              do país, é um estabelecimento de 5 estrelas com uma vista
+              panorâmica sobre o oceano Índico, ocupando uma área de cerca de 85
+              000 m², integra espaços para negócios e para o lazer, e dista
+              somente 45 minutos do Aeroporto Internacional de Maputo.
+            </p>
+
+            <p>
+              Os quartos têm decoração moderna em estilo clássico e contam com
+              ar-condicionado e banheiro privativo com chuveiro. Oferecem vista
+              para o porto, para o jardim ou para o mar. Você pode fazer suas
+              refeições no restaurante, que serve pratos da culinária local e
+              portuguesa. Além disso, você desfrutar de bebidas e petiscos no
+              bar.
+            </p>
+
+            <h3>Principais Comodidades</h3>
+            <p>
+              <br />
+              Wi-Fi gratuito;<br />
+              Três Piscinas; <br />
+              Transfer aeroporto (gratuito);<br />
+
+              Estacionamento gratuito;<br />
+              Serviço de quarto;<br />
+              Chaleira/cafeteira em todos os quartos; <br />
+              Estacionamento privativo grátis disponível no hotel.
+            </p>
+            <h3>Comodidades Especiais do Hotel de Maputo</h3>
+            <p>
+              <br />
+              Restaurante; <br />
+              Ginásio.
+            </p>
+            <p>
+              <a href="Reserva.html" class="reservaBtn">Fazer Reserva</a>
+            </p>
+          </div>
+        </section>
+      </article>
+
+      <!-- <div class="section-margin-top">
+        <div class="row">
+          <div class="tm-section-header">
+            <div class="col-lg-3 col-md-3 col-sm-3"><hr /></div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <h2 class="tm-section-title">Lorem Ipsum Dolor</h2>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3"><hr /></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+            <div class="tm-home-box-2">
+              <img src="img/index-03.jpg" alt="image" class="img-responsive" />
+              <h3>Proin Gravida Nibhvel Lorem Quis Bind</h3>
+              <p class="tm-date">28 March 2016</p>
+              <div class="tm-home-box-2-container">
+                <a href="#" class="tm-home-box-2-link"
+                  ><i class="fa fa-heart tm-home-box-2-icon border-right"></i
+                ></a>
+                <a href="#" class="tm-home-box-2-link"
+                  ><span class="tm-home-box-2-description">Travel</span></a
+                >
+                <a href="#" class="tm-home-box-2-link"
+                  ><i class="fa fa-edit tm-home-box-2-icon border-left"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+            <div class="tm-home-box-2">
+              <img src="img/index-04.jpg" alt="image" class="img-responsive" />
+              <h3>Proin Gravida Nibhvel Lorem Quis Bind</h3>
+              <p class="tm-date">26 March 2016</p>
+              <div class="tm-home-box-2-container">
+                <a href="#" class="tm-home-box-2-link"
+                  ><i class="fa fa-heart tm-home-box-2-icon border-right"></i
+                ></a>
+                <a href="#" class="tm-home-box-2-link"
+                  ><span class="tm-home-box-2-description">Travel</span></a
+                >
+                <a href="#" class="tm-home-box-2-link"
+                  ><i class="fa fa-edit tm-home-box-2-icon border-left"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+            <div class="tm-home-box-2">
+              <img src="img/index-05.jpg" alt="image" class="img-responsive" />
+              <h3>Proin Gravida Nibhvel Lorem Quis Bind</h3>
+              <p class="tm-date">24 March 2016</p>
+              <div class="tm-home-box-2-container">
+                <a href="#" class="tm-home-box-2-link"
+                  ><i class="fa fa-heart tm-home-box-2-icon border-right"></i
+                ></a>
+                <a href="#" class="tm-home-box-2-link"
+                  ><span class="tm-home-box-2-description">Travel</span></a
+                >
+                <a href="#" class="tm-home-box-2-link"
+                  ><i class="fa fa-edit tm-home-box-2-icon border-left"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+            <div class="tm-home-box-2 tm-home-box-2-right">
+              <img src="img/index-06.jpg" alt="image" class="img-responsive" />
+              <h3>Proin Gravida Nibhvel Lorem Quis Bind</h3>
+              <p class="tm-date">22 March 2016</p>
+              <div class="tm-home-box-2-container">
+                <a href="#" class="tm-home-box-2-link"
+                  ><i class="fa fa-heart tm-home-box-2-icon border-right"></i
+                ></a>
+                <a href="#" class="tm-home-box-2-link"
+                  ><span class="tm-home-box-2-description">Travel</span></a
+                >
+                <a href="#" class="tm-home-box-2-link"
+                  ><i class="fa fa-edit tm-home-box-2-icon border-left"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="home-description">
+              Holiday is free Bootstrap v3.3.5 responsive template for tour and
+              travel websites. You can download and use this layout for any
+              purpose. You do not need to provide a credit link to us. If you
+              have any question, feel free to contact us. Credit goes to
+              <a rel="nofollow" href="http://unsplash.com" target="_parent"
+                >Unsplash</a
+              >
+              for images used in this template.
+            </p>
+          </div>
+        </div>
+      </div> -->
+    </section>
+
+    <!-- white bg -->
+    <section class="tm-white-bg section-padding-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="tm-section-header section-margin-top">
+            <div class="col-lg-4 col-md-3 col-sm-3"><hr /></div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <h2 class="tm-section-title">Categorias de Quarto</h2>
+            </div>
+            <div class="col-lg-4 col-md-3 col-sm-3"><hr /></div>
+          </div>
+          <div class="col-lg-6">
+            <div class="tm-home-box-3">
+              <div class="tm-home-box-3-img-container">
+                <img src="img/1403152.jpg" alt="image" class="img-responsive" />
+              </div>
+              <div class="tm-home-box-3-info">
+                <p class="tm-home-box-3-description">
+                  <strong> Quarto Single </strong><br />
+                  Com 1 cama de solteiro, Vista da piscina, Ar-condicionado,
+                  Banheiro no quarto e TV de tela plana.
+                </p>
+                <!-- <div class="tm-home-box-2-container">
+                  <a href="#" class="tm-home-box-2-link"
+                    ><i class="fa fa-heart tm-home-box-2-icon border-right"></i
+                  ></a>
+                  <a href="#" class="tm-home-box-2-link"
+                    ><span class="tm-home-box-2-description box-3"
+                      >Fazer Reserva</span
+                    ></a
+                  >
+                  <a href="#" class="tm-home-box-2-link"
+                    ><i class="fa fa-edit tm-home-box-2-icon border-left"></i
+                  ></a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="tm-home-box-3">
+              <div class="tm-home-box-3-img-container">
+                <img
+                  src="img/paraupebasquartodouble.jpg"
+                  alt="image"
+                  class="img-responsive"
+                />
+              </div>
+              <div class="tm-home-box-3-info">
+                <p class="tm-home-box-3-description">
+                  <strong> Quarto Double </strong><br />
+                  Com Cama de casal extragrande, 2 camas de
+                  solteiro,Ar-condicionado, Banheiro no quarto e TV.
+                </p>
+                <!-- <div class="tm-home-box-2-container">
+                  <a href="#" class="tm-home-box-2-link"
+                    ><i class="fa fa-heart tm-home-box-2-icon border-right"></i
+                  ></a>
+                  <a href="#" class="tm-home-box-2-link"
+                    ><span class="tm-home-box-2-description box-3"
+                      >Fazer Reserva</span
+                    ></a
+                  >
+                  <a href="#" class="tm-home-box-2-link"
+                    ><i class="fa fa-edit tm-home-box-2-icon border-left"></i
+                  ></a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="tm-home-box-3">
+              <div class="tm-home-box-3-img-container">
+                <img
+                  src="img/como-decorar-quartos-de-hotel (2).jpg"
+                  alt="image"
+                  class="img-responsive"
+                />
+              </div>
+              <div class="tm-home-box-3-info">
+                <p class="tm-home-box-3-description">
+                  <strong> Quarto Twin </strong><br />
+                  Com 2 camas de solteiro, Vista da piscina, Ar-condicionado,
+                  Banheiro no quarto e TV de tela plana.
+                </p>
+                <!-- <div class="tm-home-box-2-container">
+                  <a href="#" class="tm-home-box-2-link"
+                    ><i class="fa fa-heart tm-home-box-2-icon border-right"></i
+                  ></a>
+                  <a href="#" class="tm-home-box-2-link"
+                    ><span class="tm-home-box-2-description box-3"
+                      >Fazer Reserva</span
+                    ></a
+                  >
+                  <a href="#" class="tm-home-box-2-link"
+                    ><i class="fa fa-edit tm-home-box-2-icon border-left"></i
+                  ></a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="tm-home-box-3">
+              <div class="tm-home-box-3-img-container">
+                <img
+                  src="img/quarto-hotel-20409.jpg"
+                  alt="image"
+                  class="img-responsive"
+                />
+              </div>
+              <div class="tm-home-box-3-info">
+                <p class="tm-home-box-3-description">
+                  <strong>Suíte de Lua de mel </strong><br />
+                  Com 1 cama de casal extragrande, petalas de rosas pelo quarto,
+                  musica classica Jazz e Champagne.
+                </p>
+                <!-- <div class="tm-home-box-2-container">
+                  <a href="#" class="tm-home-box-2-link"
+                    ><i class="fa fa-heart tm-home-box-2-icon border-right"></i
+                  ></a>
+                  <a href="#" class="tm-home-box-2-link"
+                    ><span class="tm-home-box-2-description box-3"
+                      >Fazer Reserva</span
+                    ></a
+                  >
+                  <a href="#" class="tm-home-box-2-link"
+                    ><i class="fa fa-edit tm-home-box-2-icon border-left"></i
+                  ></a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- gray bg -->
+    <section class="container tm-home-section-1" id="more">
+      <section class="sobre" id="sobre">
+        <div class="sobre-info">
+          <h2 class="sobre-title">Rest and Peace Xai-Xai</h2>
+          <p>
+            O Hotel (Rest and Peace) é um dos maiores e mais luxuosos hotéis do
+            país, é um estabelecimento de 5 estrelas com uma vista panorâmica
+            sobre o oceano Índico, ocupando uma área de cerca de 65 000 m²,
+            integra espaços para negócios e para o lazer, e dista somente 25
+            minutos do Aeroporto Internacional de Gaza.
+          </p>
+
+          <p>
+            Os quartos têm decoração moderna em estilo clássico e contam com
+            ar-condicionado e banheiro privativo com chuveiro. Oferecem vista
+            para o mar. A 5 minutos da praia de Xai-Xai, lugar turiscico, muito
+            apreciado, pelos turistas.
+          </p>
+
+          <h3>Principais Comodidades</h3>
+          <p>
+            <br />
+            Wi-Fi gratuito;<br />
+            Duas Piscinas; <br />
+            Transfer aeroporto (gratuito);<br />
+
+            Estacionamento gratuito;<br />
+            Serviço de quarto;<br />
+            Estacionamento privativo grátis disponível no hotel.
+          </p>
+          <h3>Comodidades Especiais do Hotel de Xai-Xai</h3>
+          <p>
+            <br />
+            Passeio a barco,<br />
+            campo de ténis;
+          </p>
+          <p>
+            <a href="Reserva.html" class="reservaBtn">Fazer Reserva</a>
+          </p>
+        </div>
+      </section>
+    </section>
+
+    <!-- white bg -->
+    <section class="tm-white-bg section-padding-bottom">
+      <section class="sobre" id="sobre">
+        <div class="sobre-info">
+          <h2 class="sobre-title">Rest and Peace Nampula</h2>
+          <p>
+            O Hotel (Rest and Peace) é um dos maiores e mais luxuosos hotéis do
+            país, é um estabelecimento de 5 estrelas com uma vista panorâmica
+            sobre o oceano Índico, integra espaços para negócios e para o lazer.
+          </p>
+
+          <p>
+            Os quartos têm decoração moderna em estilo clássico e contam com
+            ar-condicionado e banheiro privativo com chuveiro. Oferecem vista
+            para o mar. Com culinária local e Portuguesa destaca se dos outros
+            hoteis pela sua calmaria.
+          </p>
+
+          <h3>Principais Comodidades</h3>
+          <p>
+            <br />
+            Wi-Fi gratuito;<br />
+            Quarto Piscinas; <br />
+            Transfer aeroporto (gratuito);<br />
+            Massaguem <br />
+            Estacionamento gratuito;<br />
+            Serviço de quarto;<br />
+            Estacionamento privativo grátis disponível no hotel.
+          </p>
+          <h3>Comodidades Especiais do Hotel de Nampula</h3>
+          <p>
+            <br />
+            visita a ilhas, <br />
+            Campo de ténis;
+          </p>
+          <p>
+            <a href="Reserva.html" class="reservaBtn">Fazer Reserva</a>
+          </p>
+        </div>
+      </section>
+    </section> 
+
+    <section class="tm-white-bg section-padding-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="tm-section-header section-margin-top">
+            <div class="col-lg-4 col-md-3 col-sm-3"><hr /></div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <h2 class="tm-section-title">Serviços Especiais</h2>
+            </div>
+            <div class="col-lg-4 col-md-3 col-sm-3"><hr /></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+            <div class="tm-tours-box-2">
+              <img src="img/index-03.jpg" alt="image" class="img-responsive" />
+              <div class="tm-tours-box-2-info">
+                <h3 class="margin-bottom-15">Vista as ilhas</h3>
+                <img src="img/rating.png" alt="image" class="margin-bottom-5" />
+                <p>28 Julho 2015</p>
+              </div>
+              <!-- <a href="#" class="tm-tours-box-2-link">Book Now</a> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+            <div class="tm-tours-box-2">
+              <img src="img/index-04.jpg" alt="image" class="img-responsive" />
+              <div class="tm-tours-box-2-info">
+                <h3 class="margin-bottom-15">Vista as Montanhas</h3>
+                <img src="img/rating.png" alt="image" class="margin-bottom-5" />
+                <p>26 Abril 2020</p>
+              </div>
+              <!-- <a href="#" class="tm-tours-box-2-link">Book Now</a> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+            <div class="tm-tours-box-2">
+              <img src="img/index-05.jpg" alt="image" class="img-responsive" />
+              <div class="tm-tours-box-2-info">
+                <h3 class="margin-bottom-15">
+                  Passeio a pe com o nosso guia turiscico
+                </h3>
+                <img src="img/rating.png" alt="image" class="margin-bottom-5" />
+                <p>24 March 2014</p>
+              </div>
+              <!-- <a href="#" class="tm-tours-box-2-link">Book Now</a> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+            <div class="tm-tours-box-2">
+              <img src="img/index-06.jpg" alt="image" class="img-responsive" />
+              <div class="tm-tours-box-2-info">
+                <h3 class="margin-bottom-15">
+                 Visita ao Campo de tenis
+                </h3>
+                <img src="img/rating.png" alt="image" class="margin-bottom-5" />
+                <p>22 Abril 2020</p>
+              </div>
+              <!-- <a href="#" class="tm-tours-box-2-link">Book Now</a> -->
+            </div>
+          </div>
+        </div>
+        <!-- <div class="row">
+          <div class="col-lg-12">
+            <p class="home-description">
+              Lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+              sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate
+              cursus a sit amet mauris. Morbi accumsaipsu m velit. Nam nec
+              tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae
+              erat.
+            </p>
+          </div> -->
+        </div>
+      </div>
+    </section>
+ <!-- gray bg -->
+ <section class="container tm-home-section-1" id="more">
+  <section class="sobre" id="sobre">
+    <div class="sobre-info">
+      <h2 class="sobre-title">Rest and Peace	Inhambane</h2>
+      <p>
+        O Hotel (Rest and Peace) é um dos maiores e mais luxuosos hotéis do
+        país, é um estabelecimento de 5 estrelas com uma vista panorâmica
+        sobre o oceano Índico.
+      </p>
+
+      <p>
+        Os quartos têm decoração moderna em estilo clássico e contam com
+        ar-condicionado e banheiro privativo com chuveiro. Oferecem vista
+        para o mar, muito apreciado, pelos turistas.
+      </p>
+
+      <h3>Principais Comodidades</h3>
+      <p>
+        <br />
+        Wi-Fi gratuito;<br />
+        Duas Piscinas; <br />
+        Transfer aeroporto (gratuito);<br />
+
+        Estacionamento gratuito;<br />
+        Serviço de quarto;<br />
+        Estacionamento privativo grátis disponível no hotel.
+      </p>
+      <h3>Comodidades Especiais do Hotel de Inhambane</h3>
+      <p>
+        <br />
+        Sala de jogos <br>
+         Restaurante;
+      </p>
+      <p>
+        <a href="Reserva.html" class="reservaBtn">Fazer Reserva</a>
+      </p>
+    </div>
+  </section>
+</section>
+
+    
+    <footer class="tm-black-bg">
+      <div class="container">
+        <div class="row">
+          <p class="tm-copyright-text">
+            Copyright &copy; 2022 Tabalho Partico de Base de Dados II | Designed by Harrison Munguambe
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/moment.js"></script>
+    <!-- moment.js -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- bootstrap js -->
+    <script
+      type="text/javascript"
+      src="js/bootstrap-datetimepicker.min.js"
+    ></script>
+    <!-- bootstrap date time picker js, http://eonasdan.github.io/bootstrap-datetimepicker/ -->
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <!--
+	<script src="js/froogaloop.js"></script>
+	<script src="js/jquery.fitvid.js"></script>
+-->
+    <script type="text/javascript" src="js/templatemo-script.js"></script>
+    <!-- Templatemo Script -->
+    <script>
+      // HTML document is loaded. DOM is ready.
+      $(function () {
+        $("#hotelCarTabs a").click(function (e) {
+          e.preventDefault();
+          $(this).tab("show");
+        });
+
+        $(".date").datetimepicker({
+          format: "MM/DD/YYYY",
+        });
+        $(".date-time").datetimepicker();
+
+        // https://css-tricks.com/snippets/jquery/smooth-scrolling/
+        $("a[href*=#]:not([href=#])").click(function () {
+          if (
+            location.pathname.replace(/^\//, "") ==
+              this.pathname.replace(/^\//, "") &&
+            location.hostname == this.hostname
+          ) {
+            var target = $(this.hash);
+            target = target.length
+              ? target
+              : $("[name=" + this.hash.slice(1) + "]");
+            if (target.length) {
+              $("html,body").animate(
+                {
+                  scrollTop: target.offset().top,
+                },
+                1000
+              );
+              return false;
+            }
+          }
+        });
+      });
+
+      // Load Flexslider when everything is loaded.
+      $(window).load(function () {
+        // Vimeo API nonsense
+
+        /*
+			  var player = document.getElementById('player_1');
+			  $f(player).addEvent('ready', ready);
+			 
+			  function addEvent(element, eventName, callback) {
+			    if (element.addEventListener) {
+			      element.addEventListener(eventName, callback, false)
+			    } else {
+			      element.attachEvent(eventName, callback, false);
+			    }
+			  }
+			 
+			  function ready(player_id) {
+			    var froogaloop = $f(player_id);
+			    froogaloop.addEvent('play', function(data) {
+			      $('.flexslider').flexslider("pause");
+			    });
+			    froogaloop.addEvent('pause', function(data) {
+			      $('.flexslider').flexslider("play");
+			    });
+			  }
+*/
+
+        // Call fitVid before FlexSlider initializes, so the proper initial height can be retrieved.
+        /*
+
+			  $(".flexslider")
+			    .fitVids()
+			    .flexslider({
+			      animation: "slide",
+			      useCSS: false,
+			      animationLoop: false,
+			      smoothHeight: true,
+			      controlNav: false,
+			      before: function(slider){
+			        $f(player).api('pause');
+			      }
+			  });
+*/
+
+        //	For images only
+        $(".flexslider").flexslider({
+          controlNav: false,
+        });
+      });
+    </script>
+  </body>
+</html>

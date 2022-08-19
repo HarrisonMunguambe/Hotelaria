@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link
+      rel="icon"
+      href="img/iconfinder-connectedglobe-4417105_116615.ico"
+      type="image/x-icon"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/StyleReserva.css" />
+    <title>Formulário</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="form-image">
+        <img src="img/photo-1542314831-068cd1dbfeeb.jpg" alt="" />
+      </div>
+      <div class="form">
+        <form action="#">
+          <div class="form-header">
+            <div class="title">
+              <h1>Cadastre a sua Reserva</h1>
+            </div>
+          </div>
+
+          <div class="input-group">
+            <div class="input-box">
+              <label for="NomeReserva">Primeiro Nome</label>
+              <input
+                id="nome_reserva"
+                type="text"
+                name="nome_reserva"
+                placeholder="Digite seu primeiro nome"
+                required
+              />
+            </div>
+
+            <div class="input-box">
+              <label for="Apelido">Apelido</label>
+              <input
+                id="apelido"
+                type="text"
+                name="apelido"
+                placeholder="Digite seu sobrenome"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <label for="Data Entrada">Data Entrada</label>
+              <input id="data_saida" type="date" name="data_entrada" required />
+            </div>
+
+            <div class="input-box">
+              <label for="Data Saida">Data Saida</label>
+              <input id="data_entrada" type="date" name="data_saida" required />
+            </div>
+
+            <div class="input-box">
+              <label for="cartaocredito">Cartao credito</label>
+              <input
+                id="cartao_credito"
+                type="tel"
+                name="cartao_credito"
+                placeholder="(xx) xxxx-xxxx"
+                required
+              />
+            </div>
+
+            <div class="input-box">
+              <label for="numero_quarto">Numero Quarto</label>
+              <input
+                id="numero_quarto"
+                type="number"
+                name="numero_quarto"
+                placeholder="(xx) xxxx-xxxx"
+                required
+              />
+            </div>
+
+            <div class="input-box">
+              <label for="pais">Provincia</label>
+              <input
+                id="pais"
+                type="text"
+                name="pais"
+                placeholder="Digite o Provincia"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="continue-button">
+            <a href="about.html">Continuar</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
